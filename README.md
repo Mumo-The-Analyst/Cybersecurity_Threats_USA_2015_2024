@@ -37,7 +37,7 @@ SELECT
 FROM INFORMATION_SCHEMA.COLUMNS 
 WHERE TABLE_NAME = 'Global_Cybersecurity_Threats_2015_2024'
 ```
-![Table Structure][https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/Check_table_structure.png?raw=true]
+![Table Structure](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/Check_table_structure.png?raw=true)
 
 #### 1.2 Preview Sample Data
 ```sql
