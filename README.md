@@ -84,7 +84,7 @@ OR Incident_Resolution_Time_in_Hours IS NULL;
 ```
 -There were no missing values
 
-### 3. Basic Statistical Analysis
+### Step 3. Basic Statistical Analysis
 #### 3.1 Count of total incidents
 ```sql
 SELECT COUNT(*) AS Total_Incidents from cybersecurity_threats_in_USA_2015_2024;
@@ -127,7 +127,7 @@ ORDER BY Total_Loss_in_Billions DESC;
 ```
 - The retail industry had the highest financial losses at USD$ 2.762 B, the government had the second highest financial losses at USD$ 2.481 B, and the IT industry had the third highest financial losses at USD$ 2.364 B.
 
-### 4. Advanced Analysis - Answering Questions
+### Step 4. Advanced Analysis - Answering Questions
 
 #### 1.	How have the total cybersecurity incidents and financial losses in the USA evolved from 2015 to 2024?
 ```sql
