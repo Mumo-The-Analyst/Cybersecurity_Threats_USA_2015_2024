@@ -77,7 +77,7 @@ GROUP BY Year, Attack_Type, Target_Industry, Financial_Loss_in_Million, Number_o
 HAVING COUNT(*) > 1;
 ```
 ##### Results
-![Duplicate records](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md).
+![Duplicate records](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/check_duplicates_records.png).
 
 ##### Insights
 - There were no duplicate values
@@ -98,7 +98,7 @@ OR Defense_Mechanism_Used IS NULL
 OR Incident_Resolution_Time_in_Hours IS NULL;
 ```
 ##### Results
-![Missing values](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md).
+![Missing values](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/check_null_values.png)
 
 ##### Insights
 -There were no missing values
@@ -110,7 +110,7 @@ OR Incident_Resolution_Time_in_Hours IS NULL;
 SELECT COUNT(*) AS Total_Incidents from cybersecurity_threats_in_USA_2015_2024;
 ```
 ##### Results
-![Sum of total incidents](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md).
+![Sum of total incidents](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/total_incidents.png).
 
 ##### Insights
 - There were a total of 287 cybersecurity incidents in USA between 2015 and 2024.
@@ -124,7 +124,7 @@ GROUP BY Target_Industry
 ORDER BY Incident_count_by_industry DESC;
 ```
 ##### Results
-![Incident Count by Industry](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md).
+![Incident Count by Industry](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/Incident%20count%20by%20industry.png)
 
 ##### Insights
 - Retail industry experienced the most cybersecurity threats incidents between 2015 and 2024, with a total of 52 incidents. It was closely followed by IT industry with 47 incidents. Healthcare had the least incidents, with a total of 33 incidents between the same time.
@@ -138,7 +138,7 @@ GROUP BY Year
 ORDER BY Total_Loss_in_Billions DESC;
 ```
 ##### Results
-![Total financial loss per year](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md)
+![Total financial loss per year](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/financial_loss_per_year.png)
 
 ##### Insights
 - 2017 had the highest financial loss amounting to USD$ 1.834 B. 2020 and 2016 had the second and third highest financial accounting to USD$ 1.634 B and USD$1.63 B, respectively. 2024 had the least financial loss amounting to USD$ 1.118 B.
@@ -152,7 +152,7 @@ GROUP BY Attack_Type
 ORDER BY Count_of_Attack_Type DESC;
 ```
 ##### Results
-![Sum of attack type](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md)
+![Sum of attack type](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/count_of_attack_type.png)
 
 ##### Insights
 - DDoS accounted for the majority of cybersecurity threats in USA between 2015 and 2024, accounting for 60 incidents. SQL injection accounted for the least incidents with 38 attacks.
@@ -166,7 +166,7 @@ GROUP BY Target_Industry
 ORDER BY Total_Loss_in_Billions DESC;
 ```
 ##### Results
-![Top 3 Industries with highest financial losses](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md)
+![Top 3 Industries with highest financial losses](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/industries_with_highest_financial_losses.png)
 
 ##### Insights
 - The retail industry had the highest financial losses at USD$ 2.762 B, the government had the second highest financial losses at USD$ 2.481 B, and the IT industry had the third highest financial losses at USD$ 2.364 B.
@@ -185,7 +185,7 @@ GROUP BY Year
 ORDER BY Year;
 ```
 ##### Results
-![Total cybersecurity incidents and financial losses](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md)
+![Total cybersecurity incidents and financial losses](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/total_cybersecurity_incidents_and_loss.png)
 
 ##### Insights
 - The highest number of incidents was recorded in 2016 (34 incidents), followed closely by 2017 and 2020 (33 incidents). However, the highest financial loss occurred in 2017 (1.834 billion USD), not 2016—indicating that more incidents do not always lead to greater losses. This suggests some attacks in 2017 may have been more severe or targeted at high-value assets.
@@ -254,7 +254,7 @@ FROM Combined
 ORDER BY Year;
 ```
 ##### Results
-![Highest number of cybersecurity incidents and financial losses](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md)
+![Highest number of cybersecurity incidents and financial losses](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/year_with_highest_financial_loss_highest_ranked_attack_type.png)
 
 ##### Insights
 - 2016 had the highest number of incidents, accounting for 34 incidents in the USA. The major contributing attack type that year was Phishing. This suggests phishing campaigns were especially prevalent and possibly widespread across industries.
@@ -293,7 +293,7 @@ GROUP BY Year
 ORDER BY Year;
 ```
 ##### Results
-![cybersecurity incident cause on average per year](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md)
+![cybersecurity incident cause on average per year](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/avg_loss_per_incident.png)
 
 ##### Insights
 - Average Cost per Incident Has Fluctuated Over the Years. The average loss per incident ranged from ~47.95M (2016) to ~55.9M (2015). This indicates that the cost per incident does not increase steadily but instead fluctuates year to year, influenced by the type and scale of attacks.
@@ -311,7 +311,7 @@ FROM cybersecurity_threats_in_USA_2015_2024
 GROUP BY Year;
 ```
 ##### Results
-![Correlation between the number of cybersecurity incidents and financial loss](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md)
+![Correlation between the number of cybersecurity incidents and financial loss](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/corre_between_incident_financial_loss.png)
 
 ##### Insights
 - Overall, there is a general positive correlation since in years where the number of incidents is higher, the total financial loss also tends to be higher. E.g., 2016 (34 incidents → $1.63B loss), 2017 (33 incidents → $1.83B loss), 2020 (33 incidents → $1.63B loss). This suggests that more incidents often lead to higher cumulative losses, which aligns with expectations.
