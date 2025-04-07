@@ -326,7 +326,9 @@ SELECT *
 FROM cybersecurity_threats_in_USA_2015_2024;
 ```
 ### 6. Power BI Visualization
+![Power BI screenshot](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/cybersecurityPowerBIscreenshot.png)
 
+![Power BI short clip](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/cybersecurityPowerBIshortclip.mp4)
 ## Overall Insights
 This project provided several general insights:
 
