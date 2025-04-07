@@ -48,7 +48,7 @@ SELECT TOP 10 *
 FROM Global_Cybersecurity_Threats_2015_2024;
 ```
 ##### Results
-![Sample Data](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/edit/main/README.md)
+![Sample Data](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/preview_sample_data.png)
 
 ### Step 2: Data Preparation and Cleanup
 #### 2.1 Filter by cybersecurity incidents in USA to new data table 'cybersecurity_threats_in_USA_2015_2024'
