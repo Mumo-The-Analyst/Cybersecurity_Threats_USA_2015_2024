@@ -328,7 +328,6 @@ FROM cybersecurity_threats_in_USA_2015_2024;
 ### 6. Power BI Visualization
 ![Power BI screenshot](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/cybersecurityPowerBIscreenshot.png)
 
-![Power BI short clip](https://github.com/Mumo-The-Analyst/Cybersecurity_Threats_USA_2015_2024/blob/main/assets/images/cybersecurityPowerBIshortclip.mp4)
 ## Overall Insights
 This project provided several general insights:
 
@@ -353,3 +352,8 @@ This project was not without its challenges, but it provided good learning oppor
 This deep dive into cybersecurity threats in the USA from 2015 to 2024 has been incredibly insightful, revealing how data can uncover patterns in digital vulnerabilities and economic impact. Through the use of SQL for in-depth querying and Power BI for visualization, I was able to analyze trends, identify high-risk periods, and evaluate the financial consequences of different attack types.
 
 The project not only strengthened my technical skills but also highlighted the importance of critical thinking when interpreting real-world data. As cybersecurity continues to evolve, ongoing analysis will be essential for organizations to make informed decisions and strengthen their defenses. This project lays a strong foundation for future analytical work and emphasizes the growing role of data in tackling global digital challenges.
+
+
+# Author - Mumo_The_Analyst
+This project is part of my portfolio, showcasing the SQL and Power BI visualization skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
+Thank you for your support, and I look forward to connecting with you!
